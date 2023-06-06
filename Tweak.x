@@ -15,7 +15,12 @@
 %end
 
 %hook PRXFlowConfiguration
+// Works for >15.0
 -(void)setSupportsDarkMode:(BOOL)arg1 {
 	%orig(YES);
+}
+// Works for >14.0 (Should work for any iOS ver. with method
+-(BOOL)supportsDarkMode {
+	return YES;
 }
 %end
