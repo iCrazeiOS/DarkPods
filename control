@@ -1,0 +1,9 @@
+Package: com.icraze.darkpods
+Name: DarkPods
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Backport the iOS 17 AirPods popup to iOS 15
+Maintainer: iCraze
+Author: iCraze
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
