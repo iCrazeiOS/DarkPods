@@ -8,7 +8,7 @@
 -(void)setTitleView:(PRXTextView *)titleView {
 	%orig;
 	if (titleView) {
-		// Easy way to achieve the bolder text from iOS 17
+		// Easy way to achieve the bolder text (added somewhere between 15.1 - 15.7)
 		[titleView setTitleText:titleView.text];
 	}
 }
